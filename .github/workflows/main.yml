@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: ./compile.sh BOARD=arm-64 ARCH=arm64 BRANCH=current RELEASE=focal KERNEL_ONLY=no KERNEL_CONFIGURE=no BUILD_MINIMAL=no BUILD_DESKTOP=no PROGRESS_LOG_TO_FILE=yes
+        run: sudo ./compile.sh BOARD=arm-64 ARCH=arm64 BRANCH=current RELEASE=focal KERNEL_ONLY=no KERNEL_CONFIGURE=no BUILD_MINIMAL=no BUILD_DESKTOP=no PROGRESS_LOG_TO_FILE=yes
 
 
